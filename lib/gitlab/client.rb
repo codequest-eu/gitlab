@@ -8,6 +8,7 @@ module Gitlab
     include BuildTriggers
     include BuildVariables
     include Commits
+    include DeployKeys
     include Groups
     include Issues
     include Labels
